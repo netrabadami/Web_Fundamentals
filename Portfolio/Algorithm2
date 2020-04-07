@@ -1,0 +1,73 @@
+function printTo(x){
+    if (x >0 ){
+        for(var i=0; i<=x; i++){
+            console.log(i);
+         }
+    } 
+    else{
+        return false
+    }
+}
+
+printTo(1000);
+printTo(-10);
+
+
+
+
+function printSum(x){
+	var sum = 0;
+	for(i=0; i<=x; i++){
+		console.log(i);
+		sum += i;
+	}
+	return sum;
+}
+y = printSum(255);
+console.log(y);
+
+[1,2,3]
+
+function printSumArray(x){
+	sum = 0;
+	for (i=0; i<x.length; i++){
+		sum += x[i]; 
+	}
+	return sum;
+}
+console.log(printSumArray([1,2,3]));
+
+
+
+//Largest number
+function largestNum(x){
+	var temp = 0;
+	for(i=0;i<x.length;i++){
+	    if(x[i] > temp){
+	    	temp = x[i];
+	    	
+	    }
+	}
+	return temp
+
+}
+console.log('Largest number is',largestNum([3,7,20]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
